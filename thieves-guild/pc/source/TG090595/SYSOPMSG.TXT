@@ -1,0 +1,12 @@
+
+
+        This is a message that will display
+
+        whenever someone logs on the game.
+
+        It is found in SYSOPMSG.TXT found in
+        
+        the current directory.
+
+
+

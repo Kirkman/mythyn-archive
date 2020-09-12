@@ -1,0 +1,261 @@
+
+                +---======*** The Thieves Guild ***======--+
+                        -=[[ Sysop Documentation ]]=-
+
+                             [REGISTERED VERSION]
+                    Thank you for supporting ShareWare!!!!
+
+
+You should have received the following items in your package:
+
+       - Map of Thieves' Guild travel routes.  This is the same map that we
+         send out to Users who order one.
+
+       - 1 Disk containing the following files:
+
+          LZH201L.TTP - Use this to extract the files from THIEVES.LZH.
+                        Pass "x THIEVES.LZH <destination>" in.
+
+          EMULATE.LZH - This is a file archived in LZH format.  It is the
+                        "Thieves' Guild Emulator" which may be used by your
+                        Atari ST Users.  It will give them graphics,
+                        animation, and digitized sound.  This file should be
+                        placed in the files section on your BBS for users to
+                        download.  This file IS public domain.
+
+THIEVES.LZH - Archive containing the following:
+
+           EDITOR.TOS - This is the Editor, used to install new games, edit
+                        the THIEVES.SET file, and delete/edit players.
+
+          THIEVES.TOS - This is the main executable file.
+
+            SYSOP.DOC - This documentation in ascii format.
+
+          THIEVES.DOC - This is the game documentation file.
+
+          THIEVES.DAT - This is the file where player's information is kept.
+
+          THIEVES.SET - This is an ASCII text file where paths are set for
+                        events files, and game files.  This is also where you
+                        tell Thieves' Guild what BBS Software you are using.
+                        This may be edited with EDITOR.TOS, or with any ascii
+                        text editor.
+
+          THIEVES.SCR - This is the VT52 intro screen.
+
+              RUMOURS - This file contains rumour information, hints to quest,
+                        etc.  This file is used by the game for hints told by
+                        civilians.
+
+          RUMOURS.DAT - This file contains GUILD RUMOURS (rumours entered by
+                        players).  This may be edited provided that the number
+                        at the top of the file is equal to the number of
+                        rumours in the file.  Each rumour may not exceed 80
+                        characters.
+
+            TOWNS.DAT - This is the file that stores all vital town info.
+
+          TG_MSGS.DAT - This is a file of 8 quotes which the sysop may induce
+                        at any time during a user's game.  If you wish to
+                        customize them, you must use a text editor of some
+                        sort.
+
+  -=*******************=-
+    | Getting Started |
+  -=*******************=-
+
+         Please verify that everything has been included in your package, and
+all the files are on your disk.  You may also want to make a backup of the
+original disk before beginning installation.  If you have any problems, or
+anything seems to be missing, don't hesitate to call our support BBS!!
+
+         Because the Registered version of Thieves' Guild is so much larger
+and more complex than the Unregistered version, you will need to delete ALL
+the files that came with the Unregistered version archive.
+
+         I would also ask, if you have not already done so, that you put the
+EMULATE.LZH file on your BBS for users to download.  This file IS public
+domain and may be distributed in Computer User Groups, BBSs, Online Services,
+and shareware libraries.  Everything else in your package is NOT shareware,
+and is licensed for your use only.  PLEASE NOTE: If you change your BBS name,
+or BBS Phone Number, notify us immediately on our Support BBS.  We will
+promptly provide you with a new version containing the updated information.
+
+         Now, let's get your new version online!!!
+
+  -=****************=-
+    | Installation |
+  -=****************=-
+
+         Installation should be simple, because it's almost exactly the same
+as it was for the Unregistered version.
+
+         Step #1: Decide on a Path/Folder which will hold all your Thieves'
+                  Guild files.  On my system I use C:\FOREM\THIEVES\ ...
+                  Create the new folder and copy ALL the files (except
+                  EMULATE.LZH) from your disk into it.
+
+         Step #2: Create another folder (preferably inside the folder you just
+                  created) to hold all the "Events While Gone" files.  I use
+                  C:\FOREM\THIEVES\DATA\.
+
+         Step #3: Now load EDITOR.TOS on your Hard Drive in the Thieves Path.
+                  The Editor program makes installation easy, and makes game
+                  maintenance clean & simple.  With it you may also edit
+                  entries in the setup file THIEVES.SET; it stores information
+                  such as Paths, ascii data filenames, and BBS type.
+
+                  DON'T BOTHER CHANGING THESE LINES YET, YOU WILL BE PROMPTED
+                  TO ENTER EACH OF THEM WHEN YOU [I]NITIALIZE NEW GAME.
+
+            The lines in THIEVES.SET are as follows:
+
+               Line 1: Data Path -- (ie C:\FOREM\THIEVES\DATA\)
+
+                       This is the path you chose, & created
+                       for the "Events While Gone" files.
+
+               Line 2: Thieves Path -- (ie C:\FOREM\THIEVES\)
+
+                       This is the path you created for all
+                       the Thieves' Guild files.
+
+               Line 3: Events Path & filename -- (ie C:\THIEVES\EVENTS.TXT)
+
+                       This is an ASCII file for viewing the game Events which
+                       have transpired today.
+
+               Line 4: Yesterday Events Filename -- (ie C:\THIEVES\YEVENT.TXT)
+
+                       This is an ASCII file for viewing Events from
+                       Yesterday.
+
+               Line 5: Scores Path & Filename -- (ie C:\THIEVES\SCORES.TXT)
+
+                       This is an ASCII file containing a list of all current
+                       players with skill, scores, religion, and current Guild
+                       Master.
+
+               Line 6: Guild Masters Filename -- (ie C:\THIEVES\MASTERS.TXT)
+
+                       This is an ASCII file listing all Guild Masters from
+                       past months.
+
+               Line 7: Riddle Masters Filename -- (ie C:\THIEVES\RIDDLES.TXT)
+
+                       This is an ASCII file listing all Riddle Masters.
+
+               Line 8: BBS Program -- (ie FOREM, EXPRESS, or OTHER)
+
+                       Thieves' Guild is written to work with Forem's
+                       DORINFO1.DEF file, or EXPRESS's method of passing the
+                       username in.  Mainly because almost all other BBS
+                       programs are compatible with either of these two
+                       methods.  If your BBS program is NOT capable of this,
+                       then select [O]ther.  The game will then run with
+                       password.  If you go by [O]ther then it will be
+                       possible for users to have more than one character in
+                       the game; so by all means only use the password system
+                       as a last resort!
+
+               Line 9: Forem Data File -- (ie C:\FOREM\DOORS\DORINFO1.DEF)
+
+                       If you are using forem, this is the location & filename
+                       which holds the username information.  Inside the file,
+                       the user's first name is on line 7, last name is on
+                       line 8.
+
+                       If you are not using FOREM then this line of the .SET
+                       file is ignored, and doesn't even need to be there.
+
+
+           You may want to make the ASCII files (Events, Yesterday Events,
+           Scores, Guild Masters & Riddle Masters) viewable on your BBS
+           somewhere.  Players may view them from within the game as well
+           however...
+
+           More about the Editor later, for now just select [I]nitialize
+           new game.  This option is for first-time installation only.
+           You will sequentially be asked for paths & filenames which will
+           be used by the game; so have an idea of where you want them.
+
+         Step #4: After answering all the questions, press 'Q' to quit the
+                  editor, BE SURE to save all the changed information.
+                  Next, copy the now modified THIEVES.SET file to the
+                  path/folder your BBS is executed from.
+
+         Step #5: Thieves' Guild is now Installed!!  The only thing you need
+                  do now is add it to your BBS's DOORS menu.  You will also
+                  need to pass in the parameter "LOCAL" for the game to run
+                  while executed locally (not over the modem).  For Forem, the
+                  entry in your FDOORS.DAT file would look something like
+                  this:
+
+                       -=* The Thieves' Guild *=-
+                       10
+                       C:\THIEVES\THIEVES.WEL
+                       C:\THIEVES\THIEVES.TOS
+                       C:\THIEVES\THIEVES.TOS Local
+                       C:\THIEVES\THIEVES.EXI
+
+                  If you chose EXPRESS as your BBS type then you must pass in
+                  the user's name after the LOCAL parameter.  Remember only
+                  pass in the LOCAL parameter for games NOT being played over
+                  the modem.
+
+  -=**************=-
+    | The Editor |
+  -=**************=-
+
+         Apart from editing the THIEVES.SET file, the editor is capable of a
+few other things.  Use "[C]reate a new game" to reset the game in progress.
+
+         If your THIEVES.DAT file ever happens to go corrupt for some strange
+reason, you can have the editor create a new one by just deleting the old one
+and running the editor.
+
+         You also have the option of editing a player (no, not to cheat :).
+If you change the user's name on the BBS, then you also need to change the
+player's BBS name with the editor so Thieves' Guild will still recognize them.
+You may also change a player's game name, or delete a player.
+
+         There is an option of setting a player's "last play day to today".
+This you can use to prevent a user from being deleted due to inactivity (a
+nice thing to do for one of your user's that is going on vacation).  The
+inactivity limit is 10 days, if a user does not play for 10 days straight,
+they are deleted to free up slots.
+
+  -=******************=-
+    | Misc. Features |
+  -=******************=-
+
+          There are a couple of new special features available in the
+Registered version for the SysOp.  One of these is the ability to play the
+role of Bartender in the Tavern.  When a player chooses to "Talk with the
+Bartender" in the Tavern, you will be paged.  You then may break in and
+talk to the player as though you were the bartender, it isn't quite real-time
+so it isn't so obvious that it's really you.  If you speak carefully the user
+may not even realize he/she is talking to a real person!  You may also select
+facial expressions & actions throughout chat.  So if you're around while
+someone is playing, have at it!
+
+           There are also 8 Sysop "Hot Keys", stored in the file TG_MSGS.DAT.
+These are special "messages" that may be triggered by the sysop while someone
+is in the game.  Just press a number between 1-8 while text is BEING SENT to
+the user. A message will let you know that your request has been acknowledged.
+The next time the user goes to the main menu, the message corresponding to the
+number pressed will be displayed.  You may change the messages to anything you
+would like, but each message may not exceed 80 characters.  For your
+reference, these are the messages in the file that came with your disk:
+
+1> A man sees thee, he says, "I heard the bartender wants to speak with thee!"
+2> An eerie tone echoes through the sky...
+3> A shooting star sails through the night sky...
+4> A voice booms from the heavens!  The master says, "Watch thyself, mortal!"
+5> Thou dost feel a strange presence, as though someone is watching thee!
+6> Someone seems to be following thee from behind!!!
+7> Thou hearest whispering coming from the shadows...
+8> A chill runs down thy spine, in a strange sense of de ja vu!
+
+           Any text editor will work for editing these...

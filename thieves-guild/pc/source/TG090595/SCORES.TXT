@@ -1,0 +1,9 @@
+
+        ++ List of Guild Members as of ++
+            -> 09/05/1995 03:11:18 <-
+
+#  Name                       Skill  Faith  Score
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+A  GARATH                      25           0
+
+The Current Guild Master is -->> GARATH <<--.

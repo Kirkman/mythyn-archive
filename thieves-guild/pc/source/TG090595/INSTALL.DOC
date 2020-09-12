@@ -1,0 +1,95 @@
+To install Thieves' Guild you need to do the following:
+
+  1.  Unzip it into its own directory.
+  2.  Create a DATA directory within the current directory.
+        Type 'MD DATA' from dos command line.
+  3.  Option 1.  Run TGEDIT and follow instructions.  It should be intuitive.
+
+
+        Enter all the information it asks for.  When it asks for a path/folder
+        you need to enter the complete path name.  I.E. 'C:\PCB\DOORS\TG\DATA\'
+        including the end '\'.  When it asks for a file name, enter a complete
+        filename.  I.E. 'C:\PCB\DOORS\TG\EVENTS.TXT'.  For the data directory
+        it is recomended you choose the DATA subdirectory.  For all other
+        directories, use the THIEVES.EXE directory.  If you choose a different
+        path for the other thieves path, then the following files must be
+        located in that directory:
+
+          TG_MSGS.DAT   (steal from other player messages)
+          THIEVES.ANS   (Thieves' Guild intro ANSI Screen)
+          THIEVES.DOC   (Document/instructions on play)
+          THIEVES.SCR   (Thieves' Guild intro VT52 Screen)
+          TOWNS.DAT     (Town data file)
+          RUMOURS.DAT   (Player Rumours file)
+          RUMOURS       (Game Hints and rumours)
+
+        Enter 'Q' to quit the editor.  Your changes will be saved.  You can
+        later enter the editor to create a new game or modify a player.
+        This will save three files:
+          THIEVES.SET  (configuration file, can be edited with a text editor)
+          THIEVES.DAT  (player save game data, use only the editor)
+          THIEVES.CLK  (thieves mainenance file, should have two lines with 0)
+
+  4.  Edit a batch file to run Thieves' Guild.  For PCBoard it would look like
+      the following:
+
+        %pcbdrive%:
+        cd %pcbdrive%\pcb\doors\tg
+
+        rem the /p specifies the location of your drop file
+        thieves /p%pcbdrive%%pcbdir%
+
+        %pcbdrive%
+        cd %pcbdir%
+        board
+
+      THIEVES.EXE accepts as a parameter the code '/p' to specify the path
+      of the drop file.  It is in the form: 'thieves /pC:\PCB\NODE1'.
+
+  5.  Edit THIEVES.CTL.  It should look like the following:
+
+        SYSOPFIRST <SysOp First Name>
+        SYSOPLAST <SysOp's Last Name>
+        BBSNAME <BBS Name>
+        BBSTYPE <either PCB15 or DOORSYS>
+        STATUS <ON or OFF>
+        STATFORE 7
+        STATBACK 1
+        PAUSECODE @PAUSE@
+        MAXTIME <max time in door, 30 recommended>
+
+      Fill in the <> appropriately.  To use PCBOARD.SYS, specify PCB15 or
+      to use DOOR.SYS, specify DOORSYS in BBSTYPE.  Other BBS's are
+      supported.  For a list of all other BBS's and how to configure for
+      them, see the DDSETUP.DOC file and DDSETUP.EXE.
+
+      To enable the status bar on the bottom of the screen, enter ON for
+      STATUS else OFF to disable it.
+
+      This file is in the DDPlus style and therefore the program DDSETUP
+      may be used to edit it.  This ZIP has been included with Thieves'
+      Guild to aid in setting up the THIEVES.CTL file as a courtesy.
+      Thanks are due to Steven R. Lorenz for developing this aid.
+
+
+  6.  Try the game out from the BBS.
+
+These instructions should get you up and running with no further
+configuration necessary.  If a file is invalid, when running the game, it
+will be displayed so that it can be fixed.
+
+
+Note:
+  At present, Thieves' Guild does not support multiple nodes playing
+  concurrently.  SHARE must be installed if your BBS is a multi-node
+  system else it may cause the system to lock if two nodes try to
+  play at the same time.  It is still in Beta and this version will
+  lock out other nodes while someone is playing and possibly a version
+  will be released that will allow concurrent use with multiple nodes.
+
+  Also, if a player drops carrier in the game, it will not save the
+  game.  In a later release with a drop carrier the players turns will
+  be saved.
+
+  The game currently recognizes a drop carrier and has a three minute
+  timeout before kicking the player out of the game.

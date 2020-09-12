@@ -1,0 +1,41 @@
+
+                      CHECKLIST FOR SETUP/PLAY PROBLEMS
+                      ----------------------------------
+
+  Before you assume there is something wrong with the game or you
+  cannot get them to run on your system please check the following.
+  If you answer yes to any of them you are doing something wrong.
+
+  Thieves' Guild
+
+      _____  - You forgot to make sure SHARE is loaded IF you are
+                running multi-node OR under desqview.  Not required
+                for single node operation.
+
+      _____  - You forgot to configure the THIEVES.CTL file first.
+
+      _____  - The start up batch routine does not tell the game where
+                the drop file can be obtained and what node is playing.
+
+      _____  - You attempted to alter the TGBBSREG.CFG without obtaining
+               the correct key code from me directly or you created this
+               file.
+
+      _____  - You are running a fossil but forgot to configure the
+                CTL file to show that you are using a fossil and at what
+                speed you have locked the port.
+
+      -----  - You have not tried to change to a different drop file format
+                to see if that might be the problem.
+
+      -----  - You do NOT have ALL the game files in the same directory?
+
+  OK, I have not done anything wrong based on the above.  What do I
+  do now?  If it is a game problem fill out the bugrpt.frm completely
+  and then package it up with any error logs (ERROR.LOG), your THIEVES.CTL
+  file and the batch routine which runs the game, and transmit it to me
+  via Snail-Mail or log onto my BBS and upload it to me.  Use the first 8
+  letters (or less) to name the package. For example HELPME.ZIP would be
+  the name of my compressed package containing the BUGRPT.FRM and other
+  required files which I might submit. Please note that I will NOT
+  respond to ANY inquiries or bug reports unless I get these things!

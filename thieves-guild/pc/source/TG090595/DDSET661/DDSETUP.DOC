@@ -1,0 +1,49 @@
+        DDSETUP INTERFACE v6.61 (tm) Copyright(C) 1994 Steven R. Lorenz
+                       An Exdx Systems Development
+
+                                DISCLAIMER
+
+      The author of Ddsetup has taken every precaution to insure that no
+      harm or damage will occur on computer systems operating the Ddsetup
+      program.  Nevertheless, the author of DDsetup shall NOT be held liable
+      for whatever may happen on your computer system.
+      The user assumes full responsibility for the correct operation of this
+      software, whether harm or damage results from software error, hardware
+      malfunction, or operator error. NO warranties are offered, expressly
+      stated or implied, including without limitation or restriction any
+      warranties of operation for a particular purpose and/or merchantability.
+
+      DDsetup Interface program is FREE and can be used by any sysop or door
+      author using DDPlus style doors.
+
+      The DDSetup program can be used to setup any door that uses the DDPlus
+      doorkit.  Any door control file with ddplus control file format no
+      matter what the extension can be configured. Simply install this soft-
+      ware package and enter in the file path field the proper name of the
+      control file. Press enter. If the file doesn't already exist it will be
+      created when the save key is clicked.
+      All fields are free entry fields and can be typed over.  Some fields
+      have pick lists.  The list consists of all the acceptable parameters
+      for this element.  If the field has a blue background it has a pick
+      list.
+
+      CONTROL:  The fields can be selected by either clicking with a mouse
+      or using the arrow or tab keys to manuever from field to field. Also,
+      the function keys and certain alt keys can be used:
+         F1  - Alt-H  (help)
+         F2  - Alt-P  (pick)
+         F3  - Alt-S  (save)
+         F5  - Alt-C  (continue)
+         F10 - Alt-X  (exit)
+
+      SETUP: Place DDSetup in it's own directory along with the help.txt,
+      EgaVGA.BGI, Litt.chr, and Trip.chr files.
+
+      History:
+      11/19/94  Version 6.60 released.
+      11/21/94  Version 6.61
+                Earlier version locked up if no mouse driver was present.
+                This version now checks for mouse driver.
+                All high memory routines replaced by standard graphic calls.
+
+      The Officers' Club BBS  (818) 249-8579

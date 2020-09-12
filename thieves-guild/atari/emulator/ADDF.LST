@@ -1,0 +1,36 @@
+CLS
+DO
+  INPUT a$
+  EXIT IF a$=""
+  addtg(a$+".DAT")
+LOOP
+PROCEDURE addtg(prg$)
+  DEFINT "a-q"
+  LOCAL i,len1,len2,ltot,mask
+  OPEN "I",#1,prg$
+  len1=LOF(#1)
+  CLOSE #1
+  OPEN "I",#1,"TGSNGS.MYT"
+  len2=LOF(#1)
+  PRINT len1,len2
+  CLOSE #1
+  ltot=@even4(len1+len2+4)
+  m=MALLOC(ltot)
+  BLOAD "tgsngs.myt",m
+  mask=LPEEK(m)
+  LPOKE m+len2,@even4(len1) XOR mask
+  BLOAD prg$,m+len2+4
+  FOR i=m+len2+4 TO m+ltot-1 STEP 4
+    LPOKE i,LPEEK(i) XOR mask
+  NEXT i
+  BSAVE "tgsngs.myt",m,ltot
+RETURN
+FUNCTION even4(num)
+  LOCAL temp
+  IF num>0
+    temp=num+(3-((num-1) MOD 4))
+  ELSE
+    temp=0
+  ENDIF
+  RETURN temp
+ENDFUNC

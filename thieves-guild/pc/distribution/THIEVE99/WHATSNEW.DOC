@@ -1,0 +1,66 @@
+09/05/95
+THIEVES.EXE
+  * When a runtime error occurs, a file will be written out describing
+    the error and the location of the error.
+
+  * Now when user drops carrier or times out, the game will be saved at
+    the current status.  (Including Run Time errors if possible)
+
+08/01/95
+THIEVES.EXE
+  * Thieves' Guild now supports file locking.  It still does not support
+    more than a single user play at a time BUT it will recognize when
+    another player is playing and will lock everyone else out.  SHARE is
+    now required to be loaded if you have a multi-node BBS.  If it is not
+    loaded then no file locking will be used.
+
+TGEDIT.EXE
+  * Now you no longer need to specify a BBS Type nor path to the drop file.
+    It will automatically get the needed information from the THIEVES.CTL
+    file provided by DDPLUS.
+
+07/12/95
+
+THIEVES.EXE (main program)
+  * Fixed to work as the unregistered version adding a limit of 8
+    players max and disabling the option '0's in most towns for the
+    unregistered version.
+
+TGEDIT.EXE (new editor)
+  * Wrote a new editor for setting up Thieves' Guild that is more intuitive
+    and easier to use.  Still includes editor.exe for the old timer
+    sadists who actually prefer it!
+
+07/09/95
+
+THIEVES.EXE (main program)
+  * Telling rumours in the Tavern now works
+  * Fixed viewing daily events when view first time after midnight
+
+
+
+06/08/95
+
+THIEVES.EXE (main program)
+  * Fixed the lost file chain problem that occurs daily leaving
+    a lost cluster containing Thieves' Guild daily events
+
+  * Fixed the crash upon exit
+
+  * Made the problem analysis of missing files more intuitive telling
+    the SysOp exactly what file (including path) was incorrect
+
+  * Lowered the number of files opened at a time
+
+
+EDITOR.EXE
+  * Fixed the [I]nitialize section to properly ask for location of
+    drop file when you select PCBoard.
+
+
+Known Bugs:
+  * At times under OS/2 with only 8 Meg of ram it is VERY slow.
+
+
+Special thanks to the DDPLUS team.  Thieves' Guild is another fine DDPLUS
+door.

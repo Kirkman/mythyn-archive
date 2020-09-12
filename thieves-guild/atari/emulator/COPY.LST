@@ -1,0 +1,16 @@
+Function Copy(Prg$)
+  Local Er!,Len,M
+  Prg$="A:"+Prg$
+  Er!=True
+  If Exist(Prg$)
+    Open "I",#1,Prg$
+    Len=Lof(#1)
+    Close #1
+    M=Malloc(Len)
+    Bload Prg$,M
+    Bsave "D:"+Prg$,M,Len
+  Else
+    Er!=False
+  Endif
+  Return (Er!)
+Endfunc

@@ -1,0 +1,759 @@
+
+ _____________                                     _________          
+/___   ______/                                    /  ______/            ___
+   /  /              -=* T H E *=-               /  /               \     /
+  /  /    ___  /                            )   /  /  ___           /    /
+ /  /    /  / /__  o ___         ___    ___    /  /  /_  \       o / __ /
+ \  \___/  / /  / / /___\  \  / /___\   \__    \  \___/  / /  / / / /  /
+  \_______/ /  / /  \____/  \/  \____/ \__/     \_______/ /__/ / / /__/
+
+                               [UN-REGISTERED]
+
+                            * Documentation v1.5 *
+                             --------------------
+        /      \
+        \  /\  /
+         \/  \/ ELCOME! To a world of Ancient Legends, Powerful Wizards,
+Mysterious Magic, Valient Knights, Glamorous Treasures and Quests, but most
+of all, a cunning world of Thievery!  Let thy mind float back to the days
+of medieval existance, and fill the role of a member of the most devious
+organization, The Thieves' Guild!
+
+         --*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--
+       Town you are now in:
+
+         Visit The Thieves' Guild.
+         Visit the Stable.
+         Visit The Gypsy's Quarters
+         Go to the Torture Chamber.
+         Visit the Temple of Balor.
+         Enter the Wizard's Workshop.
+         Explore the Cave of the Ancient Ones.
+         Visit the Temple of Cathra.
+         Go to the Colleseum.
+         Enter a Pyramid.
+         Visit the Graveyard.
+         Wander the Fortress...
+         Visit the Temple of Solnar.
+         Visit the Assassin's Guild.
+
+       [1]  Read Town Status.
+       [2]  Gamble at The Casino.
+       [3]  Enter The Tavern.
+       [4]  Visit The Inn.
+       [5]  Visit The Wizard's Guild.
+       [6]  Leave Town (Travel)...
+       [7]  Visit The Bank.
+       [8]  Enter The Shoppe.
+       [9]  Visit The Jail.
+       [10] Steal from other Guild Members.
+       [11] Try to Steal from Civilians.
+       [12] View Other Guild Members.
+       [13] View Thy Status.
+       [14] Quit & Save.
+
+   I. The Night of Mystery
+  II. The Quest
+ III. Introduction  [[Explain going broke]] (Explain brief instructions, no give-aways)
+                    [[Explain time/time per day]] [[Explain emulator]]
+                    [[Explain how long TG has taken to program]]
+                    [[Explain Theft Protection]]  [[Explain saying something]]
+                    [[Explain Quit & Save]]  [[Explain Events files]]
+
+ * Chapter 1 ~ The Main Menu (Treasures in the streets) [[Street wandering]]
+           2 ~ Towns & Travel (stables & shipyards)
+           3 ~ Casinos of Plenty
+           4 ~ Taverns - Eat, Drink & Socialize
+           5 ~ The Inns - Rest & Recover
+           6 ~ Temples, the meeting place of the Gods
+           7 ~ The Thieves' Guild (skill, experience & weaponry)
+           8 ~ Wizard's Guilds, magic of prominence!
+           9 ~ Banks - The chance treasury
+          10 ~ Shoppes, the source of fine apparel
+          11 ~ Jails - Help a friend, laugh at a foe!
+          12 ~ The crafty art of Thievery (paying bail, escaping guards)
+          13 ~ Inventory & Stats (thyself & others)
+          14 ~ Magic Items
+          15 ~ Conflicts & Combat (weaponry, tactics & armour)
+
+ Appendix A - Folk Lore (Myth & Magic)
+ Appendix B - Hints & Tips! (Essential to new Thieves!!)
+
+  IV. Credits [[Map order info as well]]
+
+
+   -=******************=-
+     | Towns & Travel |
+   -=******************=-
+
+         There are 25 towns in all throughout the land, and each is individual
+and unique.  As mentioned above, option #0 on the main menu is reserved for any
+"special" place available only in that town.  Many of these special town features
+are essential to solving your quest to return home.  Though almost every town has
+a special aspect, only 3 will be described in detail (The Stable, The Thieves'
+Guild, and Temples), the rest are for you to discover.  As you venture forth,
+and converse with other inhabitants of the land you may gain hints to what is
+where.  It is wise to do price shopping, as no two towns offer identical price
+ranges.  Prices in Shoppes, Taverns, Inns, Wizard's Guilds, and ship yards all
+vary greatly.  Some towns offer certain goods not found elsewhere, so be sure
+to explore a great deal when arriving at a town new to you.  You have the option
+of viewing town status at the main menu which includes:  A brief town description,
+population, guards, and alignment.  The usefulness of this information is
+explained throughout this documentation.
+
+   ((-*-*-*-*-*-*-*-*-*-*-))
+    )) Sailing the Seas! ((
+   ((-*-*-*-*-*-*-*-*-*-*-))
+
+         All towns are connected via specific travel routes, when travelling
+you are shown a list of all nearby towns.  The time necessary for a specific
+voyage depend on several factors:  Distance, Weather, Ship/Horse Quality.
+Before you may sail, you obviously must first purchase a boat.  You may talk
+to a merchant at the Harbor (that is if the town you are in is by the ocean).
+There are several different ship types such as rafts, canoes, sail ships, and
+best of all, galleys.  The better the ship, the faster it will take you to your
+destination.  Better ships also have better Hulls, which means they are less
+likely to sink in adverse conditions (see Chapter 15 ~ Conflicts & Combat for
+more information).  It is always wise to hire some sailors if your vessel is
+big enough to carry them.  Sailors will help you fend off bad weather, sea
+monsters, whirlpools, pirates, and other possible mishaps.  The longer your
+voyage, the more likely you'll encounter these.  After you buy a ship it will
+always be with you, as it will be moved to new harbors if necessary.  For
+larger vessels, winds are required; watch the current weather conditions.  If
+you notice banners flying the wind, dust being stirred in the streets, these
+are most opportune times (though weather may change after you already set off).
+Special ship items are rumoured to be available from select individuals.
+
+   ((-*-*-*-*-*-*-*-))
+    )) Land Travel ((
+   ((-*-*-*-*-*-*-*-))
+
+         There are many dark forest roads to guide the way.  Walking is one
+way of getting around, but you may end up using all 24 hours of your day!
+Travel by land should only be done on horseback!!  There is a Stable just South
+of Arisilon (your starting point) in Jarsoloth.  Two types of horses are available,
+Travel Horses, and War Horses.  Horses for travel are fine, but only half as fast
+as a War Horse.  Though war horses are more expensive, they are worth it.  A
+war horse is also less likely to be killed by a foe lurking in the shadows, and
+will help you fight by kicking the enemy.  A travel horse should only be purchased
+if that is all you can afford.  War horses may be purchased with up to 24 hit
+points, for every 2 hit points your horse has it will travel one hour faster.
+When you buy your horse you may give it a name, it's your new travelling companion!
+Some have made reference to a horse training organization of the East.
+
+Maps of all towns & travel routes are available.  They are EXTREMELY helpful
+and full of stunning art work.  They are printed on parchment paper, airbrushed
+by hand, and full of hints!  They may be obtained by mail (within a week), talk
+to the InnKeeper or look at Section IV ~ Credits in this documentation for more
+information.
+
+   -=***********=-
+     | Casinos |
+   -=***********=-
+
+         Feeling lucky?  Try your hand at the games!  Watch your back
+though, the pit boss isn't known to be a subtle loser (not a subtle winner
+either for that matter)!
+
+   -=***********=-
+     | Taverns |
+   -=***********=-
+
+         All adventurers are familiar with the cozy atmosphere of the local
+taverns.  This is a place to relax, socialize, and of course eat & drink!
+There are however even more advantages to these gathering places, some not
+quite as apparent.  Many wise and experienced travellers may share their
+knowledge with you.  If you intend to succeed in your quest, and in over
+coming your advesaries this cannot be over looked.
+
+    Food & Drink - Not all food is safe to eat, and unfortunately food
+                   poisoning is not uncommon.  When selecting from the
+                   menu it is wise to purchase the more expensive items
+                   towards the end of the menu.  The more you pay, the
+                   longer your hunger or thirst will be satisifed.  Don't
+                   forget to tip the bartender!  He usually has a new
+                   secret to share for every additional 100 gold pieces
+                   you give him.  A wise man indeed!!!
+
+    Jobs - Is your purse losing weight?  Jobs are frequently available,
+           but often require decent apparel.
+       
+    Talking to Patrons - Relax & converse with the town folk!  They often
+                         have important information to share with you.  Be
+                         cautious however, not all are fond of new faces!
+
+    Talking with the Bartender - Perhaps on rare occasions the bartender
+                                 will have some time to speak with you.
+                                 Just try to get his attention!
+
+    Speak to a Guild Member - You may speak with any other theif that is
+                              currently in town with you...
+
+    Say something to everyone - Go ahead & yell out loud!  All will hear
+                                what you have to say!
+
+    Give someone some gold - Have a friend in need?  Sharing can be an
+                             asset indeed!
+
+    Listening & Telling Guild Rumours - Listen & tell rumours to the other
+                                        thieves of the realm!
+
+    STEAL!! - Food, wine, and gold lie behind the counter, perhaps when
+              the Bartender is not looking you could relieve him of some!
+
+   -=********=-
+     | Inns |
+   -=********=-
+
+         The cozy warmth of a fireplace, warm blankets of furr, and rooms
+to ensure you are not disturbed are all available for a price.  Rooms of
+various sizes and quality may be used at various rates.  The nicer the room
+is, the better you will sleep.  Most Inn Keepers will let you sleep for up
+to 12 hours at a time.
+
+         Clocks & time pieces are rare in the land.  All Inns have a clock
+which you may look at to plan your visits.  Because most all shoppes and
+buildings are only available during specific hours, the Inn's clock is very
+useful.  Fortunately Inns are open to visitors 24 hours a day.
+
+         If your low on gold, perhaps the Inn Keeper will have a job for
+you.  If not, you can always sneak behind the counter while he's away!
+
+  The Inn Keeper may also let you know how to obtain a maps of the lands!
+
+   -=***********=-
+     | Temples |
+   -=***********=-
+
+         In the ongoing battle between order & chaos, institutions have
+been organized.  Three prominent Gods are known throughout the lands.  Each
+one of a seperate alignment:  Lawful, Neutral, and Chaotic.  Temples for
+each of the Gods have been erected, in 3 different towns.  Generally the
+influence of each temple radiates to the nearby towns.  The north-west is
+known to be Lawful, the south is known to be Neutral, and the north-east
+is known to be Chaotic.
+
+         To join a particular religion you may be baptized or initiated
+at the temple, for a ceremonial fee.  It is best to avoid towns of your
+opposing alignment, and it's not wise to visit a temple of another religion.
+You may convert to another religion, but the ceremonial fees are higher.
+
+Here is a description of each God and what they stand for:
+
+ * SOLNAR, Keeper of the Flame -- A lawful, righteous God of light!  Join
+                                  if you seek peace, love, and improvement
+                                  of self.  The 1st moon, the silver cresent
+                                  in the heavens, represents his glory.
+
+ * CATHRA, Goddess of Light -- The Neutral Goddess of the morning!  Seek her
+                               mothering guidance if you seek justice,
+                               knowledge, and purity.  The 2nd moon, the
+                               pale light in the night sky, represents her
+                               reign.
+
+ * BALOR, Lord of the Night -- The Chaotic ruler of darkness!  Melt your soul
+                               with his fiery kingdom if you desire vengence,
+                               downfall, and destruction!  The 3rd moon, the
+                               crimson disc of the night's blackness, echoes
+                               his name.
+
+         There are two major advantages to joining a religion.  One of these
+are the temple services.  Anytime you visit your temple you may praise your
+God for one hour.  You will be instantly healed of all wounds, and your
+energy will increase.  The other, and probably most beneficial aspect of
+religions, is added Wizard's Guild privilages!  You will be offered an
+additional 7 spells at the Wizard's Guild.  These are only offered at
+Wizard's Guilds in a town of your own religions alignment!!!
+
+ (See Chapter 8 ~ Wizard's Guilds for a description of these spells)
+
+   -=**********************=-
+     | The Thieves' Guild |
+   -=**********************=-
+
+         Hidden deep within the aspen forests, in the northern mountains
+of Rouge's Isle, lies the gathering place of Theives.  This is where you
+found yourself when you first arrived in the Realm.  Here you will find
+lessons in the art of Thievery.  Training sessions last 5 hours, and will
+increase your skill up to 5 additional points.  This is a superb way for
+the new thief to progress quickly.
+
+         The Thieves' Guild is also a place for you to advance in your
+experience levels.  When you have noticed you've gone up a level (by viewing
+your stats), you may come for level advancement.  If the Master Thief finds
+you deserving you will be given a new weapon & armour.  Your hit points will
+also be increased.  It is wise not to advance too many levels before returning
+to the Thieves' Guild.  Here is a list of each expereince level, and the skill
+points needed to achieve each of them:
+
+      Skill Range      Experience  Level
+     (-)(-)-(-)(-)     -*-*-*-*-*-*-*-*-
+
+      0 - 84            Apprentice
+      85 - 104          Footpad
+      105 - 124         Robber
+      125 - 144         Burglar
+      145 - 164         Cutpurse
+      165 - 184         Sharper
+      185 - 204         Pilferer
+      205 - 224         Thief
+      225 - 264         Master Thief
+      265 - 304         10th Level Master Thief
+      305 - 344         11th Level Master Thief
+      345 - 384         12th Level Master Thief
+      385 - 455         13th Level Master Thief
+      456 & Up          14th Level Master Thief
+
+         You will be given a better weapon, and better armour with each
+level advancement!  For more information on combat & weaponry, see Chapter
+15 ~ Conflict & Combat.
+
+         At the Theieves' Guild you may also purchase magical poison darts,
+these, if they hit, will poison your foe.  See Chapter 14 ~ Magic Items for
+information on how to use them.
+
+   -=*****************=-
+     | Wizard Guilds |
+   -=*****************=-
+
+         There are many masters of the magical arts throughout the realm,
+and some make their services available for a fee.  Wizard's Guilds are
+found in almost every town, here you may visit and take advantage of both
+their healing & destructive forces.  There are 7 basic spells that every
+guild provides, though prices may vary greatly.  However, as mentioned
+in the Religion chapter of this documentation, there are 7 additional
+spells available only to those belonging to a particular faith.
+
+         The spells suit the religion to which you belong, that is, if you
+belong to the religion of Balor, your 7 additional spells are mostly for
+destructive purposes, to harm your enemy.  Following are the 7 basic spells
+available in every Wizard's Guild, regardless of your religion:
+
+   1. Raise thy skill -- This enables you to pay a wizard to raise your
+                         skill by magical means.  This is a quick  way to
+                         get large amounts of skill points.  The price
+                         per point gets more expensive depending on your
+                         current skill.  You may buy 50 skill points max
+                         at a time (it is a good idea to wait until you
+                         can afford 50 skill at one time since the price
+                         goes up the more you buy).
+
+
+    2. Read someone's mind -- If the theif has no mind protection, this
+                              enables you to find out how much gold they
+                              have ON HAND only (not how much they have in
+                              the bank).  This is useful to find out how
+                              close your enemy is to going broke. You may
+                              only cast this spell on someone who is in
+                              town with you.
+
+    3. Protect thy mind -- You may hire a wizard to protect your mind
+                           from hostile magic such as Cursing, Mind reading,
+                           Balorian sleep spells, and Balorian Death Gazes.
+                           Mind Protection is purchased by how many days
+                           you desire.  Once purchased, the only way it
+                           may be destroyed is by a Balorian Mind Crush
+                           spell.  It is wise to keep mind protection if
+                           you have a lot of enemies.
+
+    4. Curse thy foe -- If you wish to cause harm upon your enemy, this
+                        is an option.  After cursing the victim will
+                        IMMEDIATELY lose 10 skill, and be Parched,
+                        Starving, and stricken with Severe Fatigue.
+                        Anyone without Mind Protection may be cursed. It
+                        is sometimes wise to attempt to read someone's
+                        mind before you curse them (to make sure they
+                        don't have mind protection), since mind reading
+                        is much cheaper.  The victim must be in town.
+
+    5. Send a telepathic message -- This allows you to send a message
+                                    to another thief even if he isn't in
+                                    town with you.  Communicating in the
+                                    Tavern allows you to speak only to
+                                    those in town with you.
+
+    6. Cure ALL of thy ailments -- The clerics of the guild will cure
+                                   you of all ailments, such as poison,
+                                   or any other strange ailment which
+                                   might befall you.  This does NOT
+                                   restore hit points.
+
+    7. Heal -- An essential spell to keep your character alive. Rather
+               than roaming the streets or tavern in search of a friendly
+               cleric or priest, you may have your hit points restored
+               here.  Price is for each hit point to be healed.
+
+Here are the additional 7 spells for each religion, remember that these
+spells are available ONLY in a town whose alignment is the same as your
+current faith.  Because temples (where you get baptized into a religion)
+are only available in the REGISTERED version of Thieves' Guild, these
+spells will only be possible if your sysop is running a registered version
+of Thieves' Guild:
+
+  --*-- /@ Solnarian Spells @\ --*--
+          [Lawful Alignment]
+
+    1. Invisibility -- Purchased by individual days, this allows you to
+                       be more transparent to other theives.  Any time
+                       other players view the list of thieves in town,
+                       you will NOT be shown on the list.  If, however,
+                       they select your player letter at the prompt
+                       they will see you, and be able to interact with
+                       you.
+
+    2. Anti-Theft -- Exactly the same as the 3 day theft protection you
+                     receive in the beginning.  No one may steal from you
+                     while you've got it.  Once purchased (on a "by-day"
+                     basis), it will stay with you as long as you don't
+                     attempt to steal from anyone else.
+
+    3. Increase hit points -- One of Solnarians best spells!  This allows
+                              you to buy addition hit points (that is your
+                              maximum hit points), rather than depending
+                              on your level advances at the Thieves' Guild.
+
+    4. Teleport Item -- Because of the generous nature of Solnarians, this
+                        spell allows you to send gold to another thief
+                        even if he/she is not in town with you.
+
+    5. Enchant Weapon/Armour -- Increase the power & strength of your
+                                current weapon or armour! Be cautioned
+                                though, enchanted wares seem to take on
+                                a life of their own!
+
+    6. Transport -- When casted upon another theif, you will exchange
+                    locations.  A great way to get quickly to a desired
+                    town!  Also a great way to keep foes from getting to
+                    where they want to go!
+
+    7. Location -- Find out in which town a thief currently resides. It
+                   is a good idea to cast this before a Transport spell
+                   so you know what your destination will be!
+
+  --*-- /@ Catharian Spells @\ --*--
+         [Neutral  Alignment]
+
+    1. Global Search -- This will list ALL thieves and the town they are
+                        currently in.  A great spell to cast before a
+                        transport spell if you have a particular
+                        destination in mind!
+
+    2. Universal Curse -- Exactly the same as regular Curse spell only
+                          your foe doesn't have to be in town with you.
+
+    3. Universal Mind Read -- Exactly the same as a regular mind read
+                              except they need not be in town.
+
+    4. Teleport Item -- Same as Solnarian Teleport Item spell (see above).
+
+    5. Kill Assassin -- It is possible for your foe to hire a group of
+                        assassins to seek your blood, this will destroy
+                        them before they destroy you.
+
+    6. Transport -- Same as Solnarian Transport spell (see above).
+
+    7. Location -- Same as Solnarian Location spell (see above).
+
+  --*-- /@ Balorian Spells @\ --*--
+         [Chaotic Alignment]
+
+    1. Sleep Spell -- This causes a deep sleep to befall your foe.  Your
+                      enemy will lose several hours of precious time in
+                      the realm, and there will be no benefical effects
+                      of the sleep (if they were tired, they will still be
+                      just a tired as before the spell).  Be cautioned,
+                      you foe MUST have a full 24 hours left for that day
+                      or the spell will fail!  Mind Protection also guards
+                      against this spell.
+
+    2. Universal Curse -- Same as Catharian Universal Curse (see above).
+
+    3. Universal Mind Read -- Same as Catharian Universal Mind Read (see
+                              above).
+
+    4. Balorian Gaze of Death!!! -- This is the most HORRIBLE, Ruthless,
+                                    and cruel thing to do to an enemy!!!
+                                    Your foe will immediately lose 1/8th
+                                    score, and 1/4th of their skill! Not
+                                    only will your foe be Parched, Starving
+                                    and stricken with Severe Fatigue, but
+                                    it will take a long time to restore
+                                    these!  Your foe must be in an evil
+                                    town, and without mind protection.
+
+    5. Kill Assassin -- Same as Catharian Kill Assassin spell (see above).
+
+    6. Mind Crush -- The ONLY way to destroy someone's mind protection so
+                     you can send destructive magic their way!  Your foe
+                     must be in a town of Evil Alignment at the time or
+                     the spell will fail.
+
+    7. Location -- Same as Solnarian Location Spell (see above).
+
+Remember of course, as with the rest of this game, there are exceptions.
+Certain guilds may provide "extra" services that are not found anywhere
+else in the land.  I am not going to reveal the nature or location of
+them, it's up to you to find them...
+
+   -=*********=-
+     | Banks |
+   -=*********=-
+
+         Every town in the realm offers a bank, but not all are created
+equal...  Each bank offers different interest rates.  Be sure to keep in
+mind that gold in the bank is not gold you have on hand.  So if someone
+steals your last gold piece from you, you are kicked out of the Thieves'
+Guild and must start anew (regardless if you have gold in the bank or not)!
+
+         All banks are united, if you deposit your gold in one bank, you
+can withdraw it from a bank in another town.  The daily interest rate you
+are getting paid however, is the interest rate of the bank in which you
+opened your account.  If you visit another town who's bank is paying higher
+interest rates, it is a good idea to close your account & re-open it there!
+
+         The last thing to consider when going to banks is the chance of
+robbery.  Early in the progression of thieves your gold is fairly safe, as
+it is difficult to rob the bank.  When thieves gain in skill however, your
+chances of losing gold to fellow thieves is high.  Interest is paid right
+after midnight, so if you are fortunate enough to be in before midnight,
+deposit your gold then take it out after midnight!
+
+         Here's what you may do at the Banks...
+
+    Open an account - You may open an account at the bank, but you may only
+                      have one account open at a time.  If you aren't sure
+                      how much interest you are getting paid you can try
+                      to open another account and you will be told.
+
+    Close an account - By closing an account you will withdraw ALL your
+                       gold.  You then may open another account somewhere
+                       else.
+
+    Withdraw from account - You may take gold out of your account at any
+                            time, maximum 30,000 gold per transaction, at
+                            least 1 gold piece must remain in the account
+                            to keep it active.  If you want to take out all
+                            the gold you must close your account.
+
+    Deposit to account - You may put as much gold in your account as you
+                         wish.  If your account has more than 99,999 gold
+                         pieces in it you will not be paid interest.
+                         Remember to always keep adequate gold on hand so
+                         nobody causes you to go broke!
+
+    Apply for a job - Banks are known to pay very well!
+
+    Steal the Bankbooks! - Thinking about robbing the bank?  Want to know
+                           how much gold your foe has?  By stealing the
+                           bankbooks you will see the size of everyone's
+                           stores!
+
+    Rob the Bank! - VERY difficult except for the most experienced of
+                    thieves!!  Penalties begin at 2 days in jail rather
+                    than just 1.
+
+   -=***********=-
+     | Shoppes |
+   -=***********=-
+
+         Cloaks, hats, tunics, clothing of all colors & qualities are
+offered here!  Certain shoppes are known to sell a rare selection of wares.
+Dress yourself to fit your personality!  It is also wise for thieves to
+change clothing regularly to prevent detection.  Most shoppe merchants are
+willing to haggle on the prices, but are easily offended.
+
+         When you successfully steal from a fellow guild member, all they
+notice about you is your clothing, so change it often!
+
+         It is always possible to avoid the merchant altogether and grab
+something off the shelf!  No telling what you might get away with...
+
+   -=*********=-
+     | Jails |
+   -=*********=-
+
+         The jails are usually quite populated with those in the business
+of thievery!  You may visit the jail and peer in the cells.  Have a friend
+behind bars?  Pay bail, or, organize an escape!  Just be sure you don't
+become a roommate!  Bail generally runs 500 gps/day.
+
+Civ Steal  SFOGM 12 ~ The crafty art of Thievery (paying bail, escaping guards)
+
+   -=************************=-
+     | The art of Thievery! |
+   -=************************=-
+
+         As a member of the Thieves' Guild, the majority of your prosperity
+and success will come from pilfery.  It is wise in the beginning to avoid
+stealing until your skill has increased considerably.  When stealing anywhere
+(except from other Guild Members), if you fail guards will come after you.  When
+confronted with guards you have several options:  Attack them (you only get this
+option if your skill is within a specific range), try to escape, pay bail, or go
+to jail.  In most circumstances the penalty for a theft is one day in jail, if
+the crime is more serious (such as a bank robbery attempt) the penatly is two
+days.  If you go to jail and cannot afford bail, you must either wait until after
+midnight (so you'll be out), or have a friend get you out.  See Chapter 11 ~ Jails
+for more information.  If you try to escape and fail, then you will be penalized
+with an extra day in the musty cell.
+
+         Even if you have less than 100 skill it's not a bad idea to try to steal
+from the Inn or Tavern when you have less than 3 hours left in the game (since 3
+hours aren't much, and you'll be out the next day), but don't try to escape from
+guards!  For regular theft attempts it's best to wait until you have around 150-
+200 skill, but it also depends on how many guards are in town.  You may view the
+town status to see the number of guards, the more there are, the more difficult
+it will be to succeed.  Keep records of the towns you visit, find a town with very
+few guards if you wish to steal from Inns, Banks, Taverns, Shoppes & the like.
+Success in helping a friend out of jail are also influenced by guards (as well
+as trying to escape the guards).  Escaping guards gets easier with more skill.
+
+          There is an exception to this.  Stealing from civilians (pick-pocketing)
+is not at all influenced by guards in town, it isn't even influenced much by your
+current skill level.  When you wish you pick-pocket find a town with a high population,
+the higher the better!!!  Even the least experienced of thieves may participate
+in this activity (they just might not get as much gold).  Be careful however, if
+the guards don't come after you, the victim will!  Prepare to use your weapon if
+need be, nobody likes a thief's hand in his purse!
+
+           Stealing from other Thieves' (Guild Members) is also very different...
+Your success/failure ratio is in no way influenced by guards.  It is based on your
+current skill points, and the skill points of the victim.  If your skill is equal
+to each other then you've got a 50/50 chance of success.  If you steal your victim's
+last gold piece then he/she is kicked out of the guild and must start over!!!  When
+you succeed, you will also steal one of their skill points.  If you fail, they get
+one of your skill points.  It is against guild ethics to steal from a player who's
+skill you triple.  You also may not steal from a thief with Theft Protection.
+If you try to steal from someone and fail, they will see your name in their "Events
+while Gone", if you succeed then they will see one item of your clothing.  You are
+only allowed 5 guild member steals per day.
+
+Thievery, by far, will be the greatest source of income.
+
+   -=**********************************=-
+     | Inventory and Character Status |
+   -=**********************************=-
+
+         You have the option to view your status at any time.  By doing so you
+will be shown all your statistics, such as:  Name,  Skill, Experience Level,
+Weapon, Armour, Ship, Horse, Clothing, Religion, Gold, Theft Protection, Mind
+Protection, Invisibility, etc.  Immediately prior to viewing your status you will
+be asked if you wish to use one of your Magic Items.  See Chapter 14 ~ Magic
+Items for more information on this.
+
+         There is another option on the main menu which will allow you to view
+the status of other players.  If another thief is in town with you you may look
+at them, the information provided is limited.  You will see their clothing, horse
+weapon/armour, and hit points.  If you desire more information, such as how much
+gold they are carrying, you will have to read their mind.  See Chapter 8 ~ Wizard's
+Guilds for more information on this.
+
+   -=***************=-
+     | Magic Items |
+   -=***************=-
+
+         Wands, rings, potions, and many other items which have been charged with
+special energies by wizards.  When first entering the realm you are give no magic
+items whatsoever, but many are found through the land.  When looking through your
+treasure after killing your foe, look carefully for anything magic.  To view your
+magic items, select option #13 "View thy status" on the main menu.  Just before
+viewing your status you are asked if you wish to use a magic item.  You will be
+shown a list of all the magic items you have.  If you wish to use one, just enter
+the number beside it.  In most cases, the first time you use a magic item, you
+will not know it's effect or purpose.  Only after using a magic item you can be
+sure.  Sometimes you won't even notice an effect!  It is your job to figure out
+what it's for and how/where you need to use it.  BEWARE!  Though few, some magic
+items are dangerous!  Some evil magic items are meant only to bring downfall upon
+the practitioner.  Through experimentation, and experience you will learn how
+to harness the many advantages of these mysterious trinkets.  Many magic items
+are essential to solving your quest!!
+
+         Potions are different than most magic items.  They must be either used
+immediately or discarded.  Some potions are beneficial while others are very
+harmful.  Each potion has a distinct color, it is a **VERY** good idea to write
+down a potions color & it's effect once discovered!  This will let you know what
+to do in the future when you find that potion again.
+
+         Magic items are found in a wide variety of locations.  Some you'll
+find in treasure chests, some you may even find just lying in the street!  Or
+perhaps maybe some kind soul may give you one for no apparent reason!
+
+   -=*********************=-
+     | Conflict & Combat |
+   -=*********************=-
+
+         Not all inhabitants of the realm are friendly, and no doubt the
+time will come to defend yourself!  Upon entering the realm you are provided
+will only a dagger & clothing.  Better weapons & armour may be obtained at
+the Theives' Guild, for more information, see Chapter 7 ~ The Theives' Guild.
+
+         Your thief has hit points, which are familiar to those who play
+role playing games.  They are your life's essence, and when they are gone,
+your character dies.  You may be healed at the Wizard's Guild, by potions,
+or by a friendly Cleric/Priest seen wandering the streets or Tavern.
+
+         You will be challenged by civilians occasionally if you are pick-
+pocketing, and even some will challenge you on the streets without cause.
+Patrons in taverns, wild animals, monsters at sea, dark travel routes, enemies
+are found all throughout the land.  Here we will explain some of the attack
+strategies.  You will notice that in the beginning that MANY enemies will
+challenge you, but then refuse to fight you because you are so weak.  If your
+hit point maximum is too low, then some creatures will turn you down.  This is
+to protect you as you become more powerful.  It is dangerous to have low skill,
+and a lot of hit points!!  Skill & Hit points are the key to effective self
+defense (a nice weapon/armour don't hurt either!).  When engaged in combat you
+are given a list of attack techniques, they are different depending on the
+weapon you have.  Here is an example:
+
+                             [1] Defensive Strike
+
+                       [2] Slash     *-*-*-*   [3] Stab
+                       [4] Thrust!    *-*-*    [5] Lunge!
+
+                            [6] Two-Handed Attack!!!
+                             >> [T]ry to Escape! <<
+
+        If you choose a higher attack style, such as #6, you will be less
+likely to hit, however, if you do hit you'll do more damage!  It is possible
+for your foe to knock your weapon out of your hand, if this happens you will
+have the option of fighting bare-handed, or to attempt to recover your weapon.
+Once you've chosen your attack style, you then may choose a target:  Head,
+Chest, Arms, or Legs.  If you go for the head, you may do slightly less damage,
+but there is a chance you will stun your foe, rendering them unable to attack
+for some time.  If you go for the legs, you may knock them down.  If you attack
+their arms, you may knock their weapon out of their hands.  The best target
+to do damage is the Chest, but there is no chance of putting your foe out of
+commission for some time.
+
+        Occasionally, when your foe is close to death, they may beg for mercy
+or flee the battlefield.  If you are close to death, and you know that you are
+about to recieve a fatal blow, you may drop carrier (hang up) your modem.  Be
+sure you do it BEFORE you lose your last hit point however, Thieves' Guild saves
+all information when carrier is lost, but does not save the fact that you were
+in a fight (***NOTE:  On many BBSs it is considered rude to hang up while online,
+many sysops discourage it!  Be sure you know where your sysop stand on this before
+hanging up).
+
+         If you are travelling while attacked, things are slightly different.
+If sailing, your foe will not attack you, it will attack your vessel.  Your
+vessel's Hull Points are like your hit points.  When the Hull is gone, your vessel
+is destroyed.  When you successfully arrive at your destination your ship is
+repaired at the Harbor.  If travelling by land, your horse will help you attack
+your foe, but your foe will also occasionally attack your horse!
+
+         After a battle you get the reward!  You will receieve additional score,
+and if it's been a particularly tough battle, you may also receive skill & hit
+points.
+
+         You may also find a treasure chest, which may contain a lot of junk,
+or a lot of wares!  Gold & magic items are the most benefical items found after
+a battle.  Watch carefully for a magic item when looking in the chest!  Junk
+such as dishes, rags, & other unimportant objects are discarded.
+
+         See Chapter 14 ~ Magic Items for more information on these.
+
+  IV.  Credits
+
+
+
+
+

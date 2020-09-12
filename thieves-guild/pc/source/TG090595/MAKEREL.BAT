@@ -1,0 +1,22 @@
+del e:\release\thieves\*.*
+copy thieves.scr e:\release\thieves
+copy thieves.ans e:\release\thieves
+copy thieves.exe e:\release\thieves
+copy thieves.doc e:\release\thieves
+copy rumours e:\release\thieves
+copy rumours.dat e:\release\thieves
+copy tg_msgs.dat e:\release\thieves
+copy towns.dat e:\release\thieves
+copy thieves.ctl e:\release\thieves
+copy whatsnew.doc e:\release\thieves
+copy install.doc e:\release\thieves
+copy tgedit.exe e:\release\thieves
+copy ddset661.zip e:\release\thieves
+copy register.frm e:\release\thieves
+copy b4uask.doc e:\release\thieves
+copy sample.ctl e:\release\thieves
+copy sample1.bat e:\release\thieves
+copy sample2.bat e:\release\thieves
+copy sysop.doc e:\release\thieves
+copy file_id.diz e:\release\thieves
+copy bugrpt.frm e:\release\thieves

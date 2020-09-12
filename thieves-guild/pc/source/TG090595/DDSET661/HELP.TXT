@@ -1,0 +1,137 @@
+0DDsetup Interface is FREE and can be used by any sysop using DDPlus style doors.
+0The DDSetup Interface can be used to setup almost any door that uses the DDPlus
+0door kit control file format.  Simply type in the path and file name in the
+0blue input area.  If the control file doesn't already exist it can be created
+0by this program.  After entering the desired control file click continue or
+0press Alt-C or Escape.
+0
+0The second screen lists the values of all the fields of the control file. All
+0fields are free entry fields and can be typed over.  Some fields have pick
+0lists.  Each list consists of all the acceptable parameters for this element.
+0(If the field has a light blue background it has a pick list.)
+0
+0CONTROL:  The fields can be selected by either clicking with a mouse or using
+0the arrow or tab keys to manuever from field to field. Also, the function keys
+0and certain alt keys can be used:
+0
+0F1  - Alt-H  (Help - online help menu)  F2  - Alt-P  (Pick list selections)
+0F3  - Alt-S  (Save - save the file)     F5  - Alt-C  (Continue)
+0F10 - Alt-X  (eXit)
+0
+0DOOR COMMAND LINE PARMS:  The door can also be controlled using the following
+0parameters:
+0/Bxxx - Specify locked baud rate (i.e. /B38400)
+0/Cx   - Specify comport number.  (x is 1-4)
+0/E    - Use ESM for extra memory.
+0/L    - Local mode
+0/Nx   - Specify node number. (x is 1-9)
+0/Mx   - Specify multiple ctl file number. (x is up to 2 filename characters)
+0/R    - Force RIP graphics (disabled in many doors).
+0/Pyyy - Specify path to drop file (i.e. /Pc:\bbs\node1).
+0/V    - Turn local video off (i.e. local screen color is statback).
+0/W    - A Dos only network is present (but not using a multi-tasker).
+0
+0Note - Check sysop docs to see if all or other parms apply to a particular door.
+1Sysop First - Specifies the first name of the sysop as it will be shown to
+1              the users.
+1
+1Sysop Last - Specifies the last name of the sysop as it will be shown to the
+1             users.
+1
+1BBS Name  - Specifies the name of the bbs as it will be shown to users.
+2BBSType     Specifies the type of bbs software under which this door program
+2            will be run. Valid bbs types include:
+2
+2                  DOORSYS - The DOOR.SYS format (Wildcat!,GAP,TAG, etc)
+2                     RBBS - Rbbs version 16.1+  (uses v1 of DORINFOx.DEF*)
+2                    QUICK - Quickbbs,Force,R.A. (uses v2 of DORINFOx.DEF**)
+2                    PCB15 - Pcboard version 15
+2                  PHOENIX - Phoenix bbs (uses INFO.BBS)
+2                 SPITFIRE - Spitfires bbs (uses SFDOORS.DAT)
+2                     WWIV - WWIV bbs (uses CHAIN.TXT)
+2                      2AM - 2 A.M. software (uses JUMPER.DAT)
+2                   TRIBBS - TriBBS software (uses TRIBBS.SYS)
+2                    PCB14 - Pcboard version 14
+2                    PCB12 - Pcboard version 12 (note: see COMPORT help)
+2                 CALLINFO - Old Wildcat 2.xx(obsolete dropfile CALLINFO.BBS)
+2
+2Notes  *   ANSI graphics is selected when a "2" is passed in the graphics
+2           parameter of the DORINFOx.DEF.   RBBS standard.
+2       **  ANSI graphics is selected when a "1" is passed in the graphics
+2           parameter of the DORINFOx.DEF.   QuickBBS,Remote Access,FORCE,
+2           UltraBBS and many shareware BBSes require this type.
+3Internal - Communications are handled by the door programs own internal
+3communication routines.  Generally this uses less processing than any other
+3method.  Speeds can be as high as 115,200 baud.  Locking is usually not
+3necessary and may have no affect at all.
+3If internal is specified then it is possible to define the port address and
+3the IRQ number.  This is only necessary if the port and irq are other than the
+3standard configuration or conflict with other irqs.  A hexadecimal number is
+3input below the desired port number.  Below this type the IRQ number (0-15).
+3
+3Fossil - Standard Bios fossil routines.  These can handle communication speeds
+3up to and including 38,400 baud.  When choosing a fossil you must also select
+3whether or not it is to be locked.
+3
+3XFossil - High Speed Extended fossil routines.   These can handle speeds up to
+3115,200 speed.   When choosing a fossil you must also select whether or not it
+3is to be locked.
+4LockBaud   This will specify a locked baud rate.   If you specify this
+4           parameter, then no matter what the bbs software says, this baud
+4           rate will be used.
+4           [NOTE: You can also specify the locked baud rate using /Bxxxx from
+4           the command line]
+5Status     Specify "ON" if you wish the status line to appear at the bottom
+5           of "OFF" if you wish it to be disabled.
+5
+5Statfore   Statfore foreground color of the status line.
+5           Valid numbers (0-15);
+5
+5Statback   The background color of the status line or entire local screen
+5           if /V command line parm is issued.
+5           Valid numbers (0-7)
+5
+5             Color codes:  1 : blue      6 : brown        11 : light cyan
+5                           2 : green     7 : light grey   12 : bright red
+5             0 : black     3 : cyan      8 : dark grey    13 : light magenta
+5                           4 : red       9 : light blue   14 : yellow
+5                           5 : magenta  10 : light green  15 : white
+6Maxtime    The maxtime parameter will allow you to specify a maximum time per
+6           session that a user may be in the door. (i.e. if you specified 30
+6           minutes, then if the user had 60 mins left, he could only play for
+6           30 mins). Otherwise the maximum time is the users time remaining
+6           per the bbs dropfile.
+7Mono       Will disable color on the local side. (Necessary if you are
+7           running a monochrome system)
+7
+7Color1     Tells the door to select ANSI graphics when a "1" is passed in the
+7           graphics parameter of the DORINFOx.DEF.
+7           If you are correctly using the right version of dorinfox.def this
+7           will NOT be needed.
+7           Indeed this is included only to maintain consistancy with previous
+7           versions.
+8ComPort    For bbs types that do not have the com-port contained in their
+8           door dropfiles (such as PCBOARD-12), you will have to specify
+8           the comport. Simply put the port number (i.e. 1,2,etc) not the
+8           whole word COM1 in the field.
+8           As the most common dropfiles do have the comport number this is
+8           only needed by those rare systems without it.
+8
+8           [NOTE: A much better way to specify the comport is to use the
+8           /Cx parameter from the command line.]
+9Pausecode  Specifies the Rip pause code that your bbs uses.  This will
+9           be added to multiple page Rip scores file so you can use them
+9           as a bulletin.
+APort1      If you must use a non-standard interrupt, the door can be
+APort2      configured for IRQs 0-15. The port# indicates the chosen comport
+APort3      Follow this with the port address in hex.  Afterward put the IRQ
+APort4      in decimal.  For an example if comport 3 at IRQ 15 and address
+A           $03E8 was needed use the following:
+A           PORT3 03E8 15
+A
+A           Standard Ports are configured to be:
+A                           PORT    ADDR    IRQ
+A                            1      03F8     4
+A                            2      02F8     3
+A                            3      03E8     4
+A                            4      02E8     3

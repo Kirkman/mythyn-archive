@@ -1,0 +1,15 @@
+1
+57600
+N
+8
+1
+YES
+YES
+
+Line 1 = Comport
+Line 2 = Baud
+Line 3 = Parity
+Line 4 = Stop Bits
+Line 5 = myAset YES or NO, if yes, it will reset the port
+Line 7 = myAopen YES or NO, if yes, it will open the port
+Line 8 & above = Comments
