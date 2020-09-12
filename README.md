@@ -5,6 +5,8 @@ Mythyn source code repository
 
 This repository contains the source code to several BBS doors and games for the Atari ST written by Paul Witte of Mythyn Software, including the game Thieves' Guild.
 
+Download the [mythyn-source-collection.zip](mythyn-source-collection.zip) file to obtain all the files, with their original creation dates and formats.
+
 
 Thieves' Guild
 --------------
