@@ -1,3 +1,5 @@
+![Thieves' Guild Emulator title screen](https://breakintochat.com/w/images/5/58/Thieves-guild-emulator-title.png)
+
 Mythyn source code repository
 =============================
 
