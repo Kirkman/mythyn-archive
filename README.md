@@ -27,9 +27,13 @@ The source code for these projects can be found in the `/other-doors/` folder.
 More information
 ----------------
 
-Read an [interview with Paul Witte and his collaborator, Herb Flower,](XXXXXXX) where they discuss Thieves' Guild and other projects.
-
-Read a brief introduction to Thieves' Guild and download the original shareware ZIP files on the [Thieves' Guild wiki page](https://breakintochat.com/wiki/Thieves%27_Guild) at Break Into Chat.
-
 These files were retrieved from 3.5" floppy disks by Josh Renaud in May 2020, and are posted here with permission from Paul Witte.
+
+Learn more about Thieves' Guild:
+
+* Read an [interview with Paul Witte and his collaborator, Herb Flower,](https://breakintochat.com/blog/2020/09/15/paul-witte-and-herb-flower-creators-of-thieves-guild/) where they discuss Thieves' Guild and other projects.
+
+* Read about [Josh Renaud's seven-year quest](https://breakintochat.com/blog/2020/09/15/thieves-guild-memories/) to play Thieves' Guild properly and reach the game's ending.
+
+* Read a brief introduction to Thieves' Guild and download the original shareware ZIP files on the [Thieves' Guild wiki page](https://breakintochat.com/wiki/Thieves%27_Guild) at Break Into Chat.
 
